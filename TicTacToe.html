@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<head>
+
+<style>
+	/* CSS Code */
+	/* Heading */
+	h1 {
+		color: rgb(240, 150, 118);
+		font-size: 45px;
+	}
+
+	/* 3*3 Grid */
+	#b1, #b2, #b3, #b4, #b5,
+	#b6, #b7, #b8, #b9 {
+		width: 160px;
+		height: 160px;
+		margin: auto;
+		border: 1px solid rgb(198, 196, 196);
+		border-radius: 6px;
+		font-size: 30px;
+		text-align: center;
+		background-color: rgb(149, 231, 182);
+	}
+
+	/* Reset Button */
+	#but {
+		box-sizing: border-box;
+		width: 150px;
+		height: 40px;
+		border: 1px solid rgb(140, 191, 242);
+		margin: auto;
+		border-radius: 4px;
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		background-color: rgb(48, 144, 241);
+		color: white;
+		font-size: 20px;
+		cursor: pointer;
+	}
+
+	#turnEnd {
+		box-sizing: border-box;
+		width: 150px;
+		height: 40px;
+		border: 1px solid rgb(140, 191, 242);
+		margin: auto;
+		border-radius: 4px;
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		background-color: rgb(48, 144, 241);
+		color: white;
+		font-size: 20px;
+		cursor: pointer;
+	}
+
+	#draw {
+		box-sizing: border-box;
+		width: 150px;
+		height: 40px;
+		border: 1px solid rgb(140, 191, 242);
+		margin: auto;
+		border-radius: 4px;
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		background-color: rgb(48, 144, 241);
+		color: white;
+		font-size: 20px;
+		cursor: pointer;
+	}
+
+	/* Player turn space */
+	#print {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+
+		color: rgb(154, 197, 241);
+		font-size: 20px;
+	}
+
+	/* Main Container */
+	#main {
+		text-align: center;
+		background-color: rgb(22, 147, 68);
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 38px 31px;
+	}
+
+	/* Game Instruction Text */
+	#ins {
+		font-family: Verdana,
+			Geneva, Tahoma, sans-serif;
+			
+		color: rgb(244, 246, 248);
+		font-size: 17px;
+	}
+
+	.hidden {
+        display: none;
+      }
+  .show {
+        display: inline;
+	}
+
+</style>
+
+
+
+
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+
+	
+	<!-- JavaScript file included -->
+	<script src="TicTacToe.js"></script>
+</head>
+
+<body>
+	<div id="main">
+		<h1>🍡 TIC TAC TOE 🍡</h1>
+
+		<!-- Game Instructions -->
+		<p id="ins">請按下“抽籤”掣以確定玩家同對手嘅先後順序<br><br>
+			且之後請係每次揀選後按下“回合結束”掣以結束該回合～
+		</p>
+
+		<br>
+		<!-- Button to end turn -->
+		<button id="draw" onclick="getRandomIndex()">
+			抽籤
+		</button>
+
+
+		<br>
+		<!-- Button to end turn -->
+		<button id="turnEnd" class="hidden" onclick="npcStrategy();myfunc()">
+			回合結束
+		</button>
+
+
+		<!-- Grid end here -->
+		<br>
+		<!-- Button to reset game -->
+		<button id="but" class="hidden" onclick="myfunc_2()">
+			重新開始
+		</button>
+
+
+
+		<!-- Space to show player turn -->
+		<p id="print"></p>
+
+
+		<br><br>
+		<!-- 3*3 grid of Boxes -->
+		<input type="image" id="b1" src="http://surl.li/dbssp" onclick=
+			"myfunc_3(); myfunc(); checkEnding()" readonly>
+
+		<input type="image" id="b2" src="http://surl.li/dbssp" onclick=
+			"myfunc_4();myfunc(); checkEnding()" readonly>
+
+		<input type="image" id="b3" src="http://surl.li/dbssp" onclick=
+			"myfunc_5();myfunc(); checkEnding()" readonly>
+		<br><br>
+
+		<input type="image" id="b4" src="http://surl.li/dbssp" onclick=
+			"myfunc_6();myfunc(); checkEnding()" readonly>
+			
+		<input type="image" id="b5" src="http://surl.li/dbssp" onclick=
+			"myfunc_7(); myfunc(); checkEnding()" readonly>
+
+		<input type="image" id="b6" src="http://surl.li/dbssp" onclick=
+			"myfunc_8(); myfunc(); checkEnding()" readonly>
+		<br><br>
+
+		<input type="image" id="b7" src="http://surl.li/dbssp" onclick=
+			"myfunc_9(); myfunc(); checkEnding()" readonly>
+
+		<input type="image" id="b8" src="http://surl.li/dbssp" onclick=
+			"myfunc_10();myfunc(); checkEnding()" readonly>
+
+		<input type="image" id="b9" src="http://surl.li/dbssp" onclick=
+			"myfunc_11();myfunc(); checkEnding()" readonly>
+
+
+
+		
+		
+		
+
+
+
+
+	</div>
+</body>
+
+</html>
+
