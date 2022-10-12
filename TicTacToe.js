@@ -977,6 +977,8 @@ function npcStrategy() {
   } else {
     document.getElementById("print").innerHTML = "請先揀選一格再結束回合～";
   }
+
+  console.log(flag);
 }
 
 function checkEnding() {
