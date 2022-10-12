@@ -387,10 +387,8 @@ function myfunc() {
     if (flag == 1) {
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else {
-      while (document.getElementById("print").innerHTML != "平局") {
-        document.getElementById("print").innerHTML =
-          "輪到花輪同學，<br>請玩家按下“回合結束”掣以切換回合～";
-      }
+      document.getElementById("print").innerHTML =
+        "輪到花輪同學，<br>請玩家按下“回合結束”掣以切換回合～";
     }
   }
 }
