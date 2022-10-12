@@ -971,6 +971,7 @@ function npcStrategy() {
       document.getElementById("print").innerHTML = "平局";
       document.getElementById("turnEnd").className = "hidden";
       document.getElementById("but").className = "show";
+      flag = "";
       //window.alert("Match Tie");
     }
   } else {
