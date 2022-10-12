@@ -387,8 +387,10 @@ function myfunc() {
     if (flag == 1) {
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else {
-      document.getElementById("print").innerHTML =
-        "輪到花輪同學，<br>請玩家按下“回合結束”掣以切換回合～";
+      while (document.getElementById("print").innerHTML != "平局") {
+        document.getElementById("print").innerHTML =
+          "輪到花輪同學，<br>請玩家按下“回合結束”掣以切換回合～";
+      }
     }
   }
 }
@@ -975,66 +977,6 @@ function npcStrategy() {
     }
   } else {
     document.getElementById("print").innerHTML = "請先揀選一格再結束回合～";
-  }
-}
-
-function disableEmptyCell() {
-  while (document.getElementById("b1").value == "") {
-    document.getElementById("b1").disabled = true;
-  }
-  while (document.getElementById("b2").value == "") {
-    document.getElementById("b2").disabled = true;
-  }
-  while (document.getElementById("b3").value == "") {
-    document.getElementById("b3").disabled = true;
-  }
-  while (document.getElementById("b4").value == "") {
-    document.getElementById("b4").disabled = true;
-  }
-  while (document.getElementById("b5").value == "") {
-    document.getElementById("b5").disabled = true;
-  }
-  while (document.getElementById("b6").value == "") {
-    document.getElementById("b6").disabled = true;
-  }
-  while (document.getElementById("b7").value == "") {
-    document.getElementById("b7").disabled = true;
-  }
-  while (document.getElementById("b8").value == "") {
-    document.getElementById("b8").disabled = true;
-  }
-  while (document.getElementById("b9").value == "") {
-    document.getElementById("b9").disabled = true;
-  }
-}
-
-function enableEmptyCell() {
-  while (document.getElementById("b1").value == "") {
-    document.getElementById("b1").disabled = false;
-  }
-  while (document.getElementById("b2").value == "") {
-    document.getElementById("b2").disabled = false;
-  }
-  while (document.getElementById("b3").value == "") {
-    document.getElementById("b3").disabled = false;
-  }
-  while (document.getElementById("b4").value == "") {
-    document.getElementById("b4").disabled = false;
-  }
-  while (document.getElementById("b5").value == "") {
-    document.getElementById("b5").disabled = false;
-  }
-  while (document.getElementById("b6").value == "") {
-    document.getElementById("b6").disabled = false;
-  }
-  while (document.getElementById("b7").value == "") {
-    document.getElementById("b7").disabled = false;
-  }
-  while (document.getElementById("b8").value == "") {
-    document.getElementById("b8").disabled = false;
-  }
-  while (document.getElementById("b9").value == "") {
-    document.getElementById("b9").disabled = false;
   }
 }
 
