@@ -512,9 +512,9 @@ function myfunc_3() {
       "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
     //document.getElementById("b1").disabled = true;
     flag = 0;
-  } else {
+  } /* else {
     document.getElementById("print").innerHTML =
-      "呢格已經被揀選，請選擇其餘空格～";
+      "呢格已被揀選，請選擇其餘空格～";
   }
   /*
     document.getElementById("b1").value = "0";
@@ -526,11 +526,12 @@ function myfunc_3() {
 }
 
 function myfunc_4() {
-  while (flag == 1) {
+  var b2 = document.getElementById("b2").value;
+  while (flag == 1 && b2 == "") {
     document.getElementById("b2").value = "X";
     document.getElementById("b2").src =
       "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
-    document.getElementById("b2").disabled = true;
+    //document.getElementById("b2").disabled = true;
     flag = 0;
   } /*else {
     document.getElementById("b2").value = "0";
