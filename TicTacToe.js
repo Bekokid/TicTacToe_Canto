@@ -548,7 +548,7 @@ function myfunc_5() {
     document.getElementById("b3").value = "X";
     document.getElementById("b3").src =
       "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
-    document.getElementById("b3").disabled = true;
+    //document.getElementById("b3").disabled = true;
     flag = 0;
   } /*  else {
     document.getElementById("b3").value = "0";
@@ -565,7 +565,7 @@ function myfunc_6() {
     document.getElementById("b4").value = "X";
     document.getElementById("b4").src =
       "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
-    document.getElementById("b4").disabled = true;
+    //document.getElementById("b4").disabled = true;
     flag = 0;
   } /* else {
     document.getElementById("b4").value = "0";
@@ -599,7 +599,7 @@ function myfunc_8() {
     document.getElementById("b6").value = "X";
     document.getElementById("b6").src =
       "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
-    document.getElementById("b6").disabled = true;
+    //document.getElementById("b6").disabled = true;
     flag = 0;
   } /*  else {
     document.getElementById("b6").value = "0";
@@ -616,7 +616,7 @@ function myfunc_9() {
     document.getElementById("b7").value = "X";
     document.getElementById("b7").src =
       "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
-    document.getElementById("b7").disabled = true;
+    //document.getElementById("b7").disabled = true;
     flag = 0;
   } /*  else {
     document.getElementById("b7").value = "0";
@@ -633,7 +633,7 @@ function myfunc_10() {
     document.getElementById("b8").value = "X";
     document.getElementById("b8").src =
       "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
-    document.getElementById("b8").disabled = true;
+    //document.getElementById("b8").disabled = true;
     flag = 0;
   } /*   else {
     document.getElementById("b8").value = "0";
@@ -650,7 +650,7 @@ function myfunc_11() {
     document.getElementById("b9").value = "X";
     document.getElementById("b9").src =
       "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
-    document.getElementById("b9").disabled = true;
+    //document.getElementById("b9").disabled = true;
     flag = 0;
   } /*  else {
     document.getElementById("b9").value = "0";
