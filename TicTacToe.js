@@ -582,7 +582,7 @@ function myfunc_7() {
     document.getElementById("b5").value = "X";
     document.getElementById("b5").src =
       "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
-    document.getElementById("b5").disabled = true;
+    //document.getElementById("b5").disabled = true;
     flag = 0;
   } /* else {
     document.getElementById("b5").value = "0";
