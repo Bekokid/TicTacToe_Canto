@@ -504,13 +504,19 @@ function iconDisplay_1() {
 */
 
 function myfunc_3() {
-  while (flag == 1) {
+  var b1 = document.getElementById("b1").value;
+
+  if (flag == 1 && b1 == "") {
     document.getElementById("b1").value = "X";
     document.getElementById("b1").src =
       "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
     //document.getElementById("b1").disabled = true;
     flag = 0;
-  } /* else {
+  } else {
+    document.getElementById("print").innerHTML =
+      "呢格已經被揀選，請選擇其餘空格～";
+  }
+  /*
     document.getElementById("b1").value = "0";
     document.getElementById("b1").src =
       "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
