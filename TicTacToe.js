@@ -428,55 +428,55 @@ function getRandomIndex() {
       document.getElementById("b1").value = "0";
       document.getElementById("b1").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b1").disabled = true;
+      //document.getElementById("b1").disabled = true;
       flag = 1;
     } else if (Hanawa == 2) {
       document.getElementById("b2").value = "0";
       document.getElementById("b2").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b2").disabled = true;
+      //document.getElementById("b2").disabled = true;
       flag = 1;
     } else if (Hanawa == 3) {
       document.getElementById("b3").value = "0";
       document.getElementById("b3").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b3").disabled = true;
+      //document.getElementById("b3").disabled = true;
       flag = 1;
     } else if (Hanawa == 4) {
       document.getElementById("b4").value = "0";
       document.getElementById("b4").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b4").disabled = true;
+      //document.getElementById("b4").disabled = true;
       flag = 1;
     } else if (Hanawa == 5) {
       document.getElementById("b5").value = "0";
       document.getElementById("b5").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b5").disabled = true;
+      //document.getElementById("b5").disabled = true;
       flag = 1;
     } else if (Hanawa == 6) {
       document.getElementById("b6").value = "0";
       document.getElementById("b6").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b6").disabled = true;
+      //document.getElementById("b6").disabled = true;
       flag = 1;
     } else if (Hanawa == 7) {
       document.getElementById("b7").value = "0";
       document.getElementById("b7").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b7").disabled = true;
+      //document.getElementById("b7").disabled = true;
       flag = 1;
     } else if (Hanawa == 8) {
       document.getElementById("b8").value = "0";
       document.getElementById("b8").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b8").disabled = true;
+      //document.getElementById("b8").disabled = true;
       flag = 1;
     } else if (Hanawa == 9) {
       document.getElementById("b9").value = "0";
       document.getElementById("b9").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b9").disabled = true;
+      //document.getElementById("b9").disabled = true;
       flag = 1;
     }
   }
@@ -543,7 +543,8 @@ function myfunc_4() {
 }
 
 function myfunc_5() {
-  while (flag == 1) {
+  var b3 = document.getElementById("b3").value;
+  while (flag == 1 && b3 == "") {
     document.getElementById("b3").value = "X";
     document.getElementById("b3").src =
       "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
@@ -559,7 +560,8 @@ function myfunc_5() {
 }
 
 function myfunc_6() {
-  while (flag == 1) {
+  var b4 = document.getElementById("b4").value;
+  while (flag == 1 && b4 == "") {
     document.getElementById("b4").value = "X";
     document.getElementById("b4").src =
       "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
@@ -575,7 +577,8 @@ function myfunc_6() {
 }
 
 function myfunc_7() {
-  while (flag == 1) {
+  var b5 = document.getElementById("b5").value;
+  while (flag == 1 && b5 == "") {
     document.getElementById("b5").value = "X";
     document.getElementById("b5").src =
       "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
@@ -591,7 +594,8 @@ function myfunc_7() {
 }
 
 function myfunc_8() {
-  while (flag == 1) {
+  var b6 = document.getElementById("b6").value;
+  while (flag == 1 && b6 == "") {
     document.getElementById("b6").value = "X";
     document.getElementById("b6").src =
       "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
@@ -607,7 +611,8 @@ function myfunc_8() {
 }
 
 function myfunc_9() {
-  while (flag == 1) {
+  var b7 = document.getElementById("b7").value;
+  while (flag == 1 && b7 == "") {
     document.getElementById("b7").value = "X";
     document.getElementById("b7").src =
       "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
@@ -623,7 +628,8 @@ function myfunc_9() {
 }
 
 function myfunc_10() {
-  while (flag == 1) {
+  var b8 = document.getElementById("b8").value;
+  while (flag == 1 && b8 == "") {
     document.getElementById("b8").value = "X";
     document.getElementById("b8").src =
       "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
@@ -639,7 +645,8 @@ function myfunc_10() {
 }
 
 function myfunc_11() {
-  while (flag == 1) {
+  var b9 = document.getElementById("b9").value;
+  while (flag == 1 && b9 == "") {
     document.getElementById("b9").value = "X";
     document.getElementById("b9").src =
       "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
@@ -675,7 +682,7 @@ function npcStrategy() {
       document.getElementById("b1").value = "0";
       document.getElementById("b1").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b1").disabled = true;
+      //document.getElementById("b1").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -685,7 +692,7 @@ function npcStrategy() {
       document.getElementById("b2").value = "0";
       document.getElementById("b2").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b2").disabled = true;
+      //document.getElementById("b2").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -696,7 +703,7 @@ function npcStrategy() {
       document.getElementById("b3").value = "0";
       document.getElementById("b3").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b3").disabled = true;
+      //document.getElementById("b3").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -706,14 +713,14 @@ function npcStrategy() {
       document.getElementById("b4").value = "0";
       document.getElementById("b4").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b4").disabled = true;
+      //document.getElementById("b4").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (b5 == "") {
       document.getElementById("b5").value = "0";
       document.getElementById("b5").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b5").disabled = true;
+      //document.getElementById("b5").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -723,7 +730,7 @@ function npcStrategy() {
       document.getElementById("b6").value = "0";
       document.getElementById("b6").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b6").disabled = true;
+      //document.getElementById("b6").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -734,7 +741,7 @@ function npcStrategy() {
       document.getElementById("b7").value = "0";
       document.getElementById("b7").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b7").disabled = true;
+      //document.getElementById("b7").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -744,7 +751,7 @@ function npcStrategy() {
       document.getElementById("b8").value = "0";
       document.getElementById("b8").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b8").disabled = true;
+      //document.getElementById("b8").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -755,7 +762,7 @@ function npcStrategy() {
       document.getElementById("b9").value = "0";
       document.getElementById("b9").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b9").disabled = true;
+      //document.getElementById("b9").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
       // above is for winning the game
@@ -776,7 +783,7 @@ function npcStrategy() {
       document.getElementById("b1").value = "0";
       document.getElementById("b1").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b1").disabled = true;
+      //document.getElementById("b1").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -786,7 +793,7 @@ function npcStrategy() {
       document.getElementById("b2").value = "0";
       document.getElementById("b2").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b2").disabled = true;
+      //document.getElementById("b2").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -797,7 +804,7 @@ function npcStrategy() {
       document.getElementById("b3").value = "0";
       document.getElementById("b3").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b3").disabled = true;
+      //document.getElementById("b3").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -807,7 +814,7 @@ function npcStrategy() {
       document.getElementById("b4").value = "0";
       document.getElementById("b4").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b4").disabled = true;
+      //document.getElementById("b4").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
       // below is when b5 is occupied by player
@@ -825,7 +832,7 @@ function npcStrategy() {
       document.getElementById("b6").value = "0";
       document.getElementById("b6").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b6").disabled = true;
+      //document.getElementById("b6").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -836,7 +843,7 @@ function npcStrategy() {
       document.getElementById("b7").value = "0";
       document.getElementById("b7").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b7").disabled = true;
+      //document.getElementById("b7").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -846,7 +853,7 @@ function npcStrategy() {
       document.getElementById("b8").value = "0";
       document.getElementById("b8").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b8").disabled = true;
+      //document.getElementById("b8").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -857,7 +864,7 @@ function npcStrategy() {
       document.getElementById("b9").value = "0";
       document.getElementById("b9").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b9").disabled = true;
+      //document.getElementById("b9").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
 
@@ -873,7 +880,7 @@ function npcStrategy() {
       document.getElementById("b1").value = "0";
       document.getElementById("b1").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b1").disabled = true;
+      //document.getElementById("b1").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -885,7 +892,7 @@ function npcStrategy() {
       document.getElementById("b2").value = "0";
       document.getElementById("b2").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b2").disabled = true;
+      //document.getElementById("b2").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -899,7 +906,7 @@ function npcStrategy() {
       document.getElementById("b3").value = "0";
       document.getElementById("b3").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b3").disabled = true;
+      //document.getElementById("b3").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -911,7 +918,7 @@ function npcStrategy() {
       document.getElementById("b4").value = "0";
       document.getElementById("b4").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b4").disabled = true;
+      //document.getElementById("b4").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -930,7 +937,7 @@ function npcStrategy() {
       document.getElementById("b6").value = "0";
       document.getElementById("b6").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b6").disabled = true;
+      //document.getElementById("b6").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -944,7 +951,7 @@ function npcStrategy() {
       document.getElementById("b7").value = "0";
       document.getElementById("b7").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b7").disabled = true;
+      //document.getElementById("b7").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -956,7 +963,7 @@ function npcStrategy() {
       document.getElementById("b8").value = "0";
       document.getElementById("b8").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b8").disabled = true;
+      //document.getElementById("b8").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
     } else if (
@@ -970,11 +977,21 @@ function npcStrategy() {
       document.getElementById("b9").value = "0";
       document.getElementById("b9").src =
         "https://imgs.qiubiaoqing.com/qiubiaoqing/imgs/625b163cf0b85c0Z.gif";
-      document.getElementById("b9").disabled = true;
+      //document.getElementById("b9").disabled = true;
       flag = 1;
       document.getElementById("print").innerHTML = "輪到小丸子～";
       // above is to set the 2nd step
     } else {
+      document.getElementById("b1").disabled = true;
+      document.getElementById("b2").disabled = true;
+      document.getElementById("b3").disabled = true;
+      document.getElementById("b4").disabled = true;
+      document.getElementById("b5").disabled = true;
+      document.getElementById("b6").disabled = true;
+      document.getElementById("b7").disabled = true;
+      document.getElementById("b8").disabled = true;
+      document.getElementById("b9").disabled = true;
+
       document.getElementById("print").innerHTML = "平局";
       document.getElementById("turnEnd").className = "hidden";
       document.getElementById("but").className = "show";
@@ -1147,6 +1164,16 @@ function checkNpcWinning() {
     (b8 == "0" || b8 == "X") &&
     (b9 == "0" || b9 == "X")
   ) {
+    document.getElementById("b1").disabled = true;
+    document.getElementById("b2").disabled = true;
+    document.getElementById("b3").disabled = true;
+    document.getElementById("b4").disabled = true;
+    document.getElementById("b5").disabled = true;
+    document.getElementById("b6").disabled = true;
+    document.getElementById("b7").disabled = true;
+    document.getElementById("b8").disabled = true;
+    document.getElementById("b9").disabled = true;
+
     document.getElementById("print").innerHTML = "平局";
     document.getElementById("turnEnd").className = "hidden";
     document.getElementById("but").className = "show";
