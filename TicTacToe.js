@@ -507,7 +507,7 @@ function myfunc_3() {
   while (flag == 1) {
     document.getElementById("b1").value = "X";
     document.getElementById("b1").src =
-      "https://i.pinimg.com/originals/11/e5/3c/11e53c0fac0fb836c10121a227743176.png";
+      "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
     document.getElementById("b1").disabled = true;
     flag = 0;
   } /* else {
