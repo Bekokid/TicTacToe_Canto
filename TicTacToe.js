@@ -506,7 +506,8 @@ function iconDisplay_1() {
 function myfunc_3() {
   while (flag == 1) {
     document.getElementById("b1").value = "X";
-    document.getElementById("b1").src = "https://reurl.cc/vWY3Ey";
+    document.getElementById("b1").src =
+      "http://www.animated-gifs.fr/category_kids/girls-181/girl-0010.gif";
     document.getElementById("b1").disabled = true;
     flag = 0;
   } /* else {
